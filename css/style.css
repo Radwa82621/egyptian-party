@@ -1,0 +1,142 @@
+*{
+    scroll-behavior: smooth;
+}
+#home {
+    background-image: url(../images/events-heavenly-header.jpg);
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.overlay {
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#home h1 {
+    font-size: 60px;
+}
+
+#nav {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    display: flex;
+    transform: translatex(-200px);
+}
+
+#nav-container {
+    width: 200px;
+    background-color: #414658;
+}
+
+#nav-icon {
+    width: 100px;
+    align-self: center;
+    height: 70px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#nav-container a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    color: white;
+
+}
+
+#nav-container .closebtn {
+    position: absolute;
+    top: 0;
+    right: 120px;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+#accordion h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+#accordion .p {
+    padding: 10px;
+    background-color: #ccc;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: none !important
+}
+
+.counter-layout {
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#counter .col-md-3 .counter-data{
+    border: 2px white solid;
+    padding: 50px;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter-layout .container{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#contact h2{
+    color: #444;
+    font-size: 35px;
+}
+#contact h3{
+    color: #444; 
+}
+#contact p{
+    color: #777; 
+}
+#contact .icon{
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.5s;}
+#contact .icon i{
+    cursor: pointer;
+    color: #999; 
+   
+}
+#contact .icon:hover {
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+#contact .icon:hover i{
+    color: #fff;}
+/* #dc3545!important */
